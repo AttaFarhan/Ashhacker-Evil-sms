@@ -46,7 +46,7 @@ $ ls
 
 $ chmod +x *
 
-$ bash Run.sh 
+$ ./Evil-sms.sh
 ```
 
  ### Installation Evil-sms in kali
@@ -67,7 +67,7 @@ $ ls
 
 $ chmod +x *
 
-$ bash Run-kali.sh
+$ bash Evil-sms.sh
 ```
 
 ### Screenshots
