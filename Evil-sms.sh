@@ -122,7 +122,10 @@ do
         $PYTHON bomber.py --call
         exit
     elif [ $ch -eq 3 ];then
-        $PYTH HEmbomb.py 
+        $PIP install lolcat
+        echo "please see the video before you do" | lolcat
+        xdg-open https://youtu.be/FVi-m1qmJD0
+        $PYTH HEmbomb.py
         exit
     elif [ $ch -eq 4 ];then
         echo -e "\e[1;34m Downloading Latest Files..."
