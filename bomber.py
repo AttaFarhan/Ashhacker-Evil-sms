@@ -404,7 +404,7 @@ if __name__ == "__main__":
     else:
         choice = ""
         avail_choice = {"1": "SMS", "2": "CALL",
-                        "3": "MAIL (Not Yet Available)"}
+                        "3": "MAIL"}
         try:
             while (choice not in avail_choice):
                 clr()
